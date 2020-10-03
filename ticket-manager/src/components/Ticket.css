@@ -1,0 +1,46 @@
+.ticket{
+    border: 5px dotted mediumaquamarine;
+    background-color: mediumseagreen;
+    margin: 5px;
+    border-radius: 25px;
+    margin-left: 0px;
+    padding: 5px;
+  }
+
+  .hideTicketButton{
+    position: absolute;
+    right:2%;
+    margin-top: 10px;
+    display:inline-block;
+    padding:0.3em 1.2em;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    background-color:#4eb5f1;
+    text-align:center;
+    transition: all 0.2s;
+    }
+
+    #hideTicketButton:hover{
+    background-color:#4095c6;
+    }
+
+    #title{
+        text-indent: 10px;
+        text-decoration: underline;
+    }
+    
+    .label{
+        background: turquoise;
+        width:10%;
+        text-align: center;
+        margin:3px;
+        border-radius:3px;
+        border: 1px solid blanchedalmond;
+        padding:3px;
+        position: relative;
+        bottom:10px;
+    }
